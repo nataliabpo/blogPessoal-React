@@ -18,18 +18,17 @@ function Navbar() {
 
   return (
     <>
-     <div className='w-full bg-indigo-900 text-white flex justify-center py-4'>
+     <div className='w-full bg-indigo-900 text-white flex justify-center py-5'>
           <div className="container flex justify-between text-lg">
-            <div className='text-2xl font-bold uppercase'>Blog Pessoal</div>
+            <div className='text-3xl font-bold uppercase'>Blog Pessoal</div>
 
-            <div className='flex gap-4'>
+            <div className='flex gap-5'>
               <Link to='/login' className='hover:underline'>Login</Link>
               <Link to='/home' className='hover:underline'>Home</Link>
               <div className='hover:underline'>Postagens</div>
               <Link to='/temas' className='hover:underline'>Temas</Link>
-              <div className='hover:underline'>Cadastrar tema</div>
+              <Link to='/cadastroTema' className='hover:underline'>Cadastrar tema</Link>
               <div className='hover:underline'>Perfil</div>
-              <div className='hover:underline'>Sair</div>
               <Link to='' onClick={logout} className='hover:underline'>Sair</Link>
             </div>
           </div>

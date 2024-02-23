@@ -1,10 +1,10 @@
-import React, { useContext, useEffect, useState } from 'react';
 import { Dna } from 'react-loader-spinner';
 import { useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../../contexts/AuthContext';
 import Tema from '../../../models/Tema';
 import { buscar } from '../../../service/Service';
 import CardTemas from '../cardTemas/CardTemas';
+import { useContext, useEffect, useState } from 'react';
 
 function ListaTemas() {
   const [temas, setTemas] = useState<Tema[]>([]);
