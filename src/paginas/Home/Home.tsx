@@ -1,4 +1,4 @@
-import homeLogo from '../../assets/home.png'
+import homeLogo from '../../assets/home.jpg'
 import ListaPostagens from '../../components/postagens/listaPostagens/ListaPostagens';
 import ModalPostagem from '../../components/postagens/modalPostagem/ModalPostagem';
 import './Home.css';
